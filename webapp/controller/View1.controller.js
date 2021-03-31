@@ -9,6 +9,7 @@ sap.ui.define([
 
 		return Controller.extend("uitable.controller.View1", {
 			onInit: function () {
+				var a=10;
 				sap.ui.getCore().getConfiguration().setLanguage("hi");
 				// var i18nModel = new sap.ui.model.resource.ResourceModel({
 
