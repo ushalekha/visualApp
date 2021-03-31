@@ -1,0 +1,200 @@
+<mvc:View
+    controllerName="uitable.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+	xmlns:tab="sap.ui.table"
+		xmlns:c="sap.ui.core"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+	
+	<tab:Table rows="{/store}"   fixedColumnCount="1" rowSelectionChange="onClick">
+	
+							<tab:columns>
+								<tab:Column>
+									<tab:label>
+										<Label text="{i18n>EmpName}"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{empname}"></Text>
+									</tab:template>
+								</tab:Column>
+								<tab:Column>
+									<tab:label>
+										<Label text="Emp Id"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{empid}"></Text>
+									</tab:template>
+								</tab:Column>
+								<tab:Column>
+									<tab:label>
+										<Label text="Phone"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{phone}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="Emailid"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{email}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="city"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{city}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+								
+							</tab:columns>
+						</tab:Table>
+						
+<!-- <tab:Table rows="{/store}">
+							<tab:columns>
+								<tab:Column>
+									<tab:label>
+										<Label text="Emp Name"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{empname}"></Text>
+									</tab:template>
+								</tab:Column>
+								<tab:Column>
+									<tab:label>
+										<Label text="Emp Id"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{empid}"></Text>
+									</tab:template>
+								</tab:Column>
+								<tab:Column>
+									<tab:label>
+										<Label text="Phone"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{phone}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="Emailid"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{email}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="city"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{city}"></Text>
+									</tab:template>
+								</tab:Column>
+									<tab:Column>
+									<tab:label>
+										<Label text="company"></Label>
+									</tab:label>
+									<tab:template>
+										<Text text="{company}"></Text>
+									</tab:template>
+								</tab:Column>
+							</tab:columns>
+						</tab:Table> -->
+						  
+  </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
