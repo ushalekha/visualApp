@@ -11,7 +11,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-	
+	<Text text="changed "></Text>
 	<tab:Table rows="{/store}"   fixedColumnCount="1" rowSelectionChange="onClick">
 	
 							<tab:columns>
